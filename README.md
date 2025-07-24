@@ -104,4 +104,6 @@ You are tasked with setting up a test environment in Microsoft Azure to:
 Run the following command from your terminal:
 
 ```bash
+chmod 400 <path-to-private_key.pem>
+
 ssh -i <path-to-downloaded-private-key>.pem azureuser@<VM-Public-IP>
