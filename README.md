@@ -36,7 +36,7 @@ You are tasked with setting up a test environment in Microsoft Azure to:
 
 1. Go to **Azure Portal** → **Resource groups** → **Create**.
 2. **Resource Group Name**: `az900-project1-rg`
-3. **Region**: `East US`
+3. **Region**: `Uk South`
 4. Click **Review + create** → **Create**
 
 ---
@@ -45,7 +45,7 @@ You are tasked with setting up a test environment in Microsoft Azure to:
 
 1. Go to **Virtual machines** → **Create** → **Azure virtual machine**
 2. **Basics**:
-   - **Image**: Ubuntu Server 20.04 LTS - Gen2
+   - **Image**: Ubuntu Server 22.04 LTS - Gen2
    - **Size**: `Standard_B1s` (Free-tier eligible)
    - **Authentication**: SSH public key
      - Generate a new key pair and **download the private key** (`.pem`)
